@@ -39,6 +39,28 @@ html {
 }
 
 body {
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Center inner content and tweak typography */
+.section > div {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.section-title {
+  margin: 0 0 0.5rem 0;
+}
+
+.fixed-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 0.75rem;
+  font-weight: 500;
+}
+
+.fixed-menu {
+  background: rgba(31,41,55,0.95);
 }
